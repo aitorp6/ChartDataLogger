@@ -48,19 +48,34 @@ Time,Open,High,Low,Close,Volume
 
 ## 🛠️ Installation
 
-1. Close NinjaTrader 8 (or prepare to compile).
-2. Download or clone this repository.
-3. Copy the `ChartDataLogger` folder into your NinjaTrader 8 custom AddOns directory:
+### Option 1: 1-Click Import via NinjaTrader (Recommended & Easiest)
+
+1. Go to the **[Releases](../../releases)** section of this repository.
+2. Download the pre-packaged **`ChartDataLogger.zip`** file.
+3. In NinjaTrader 8, open the **Control Center** and click on:
+   ```
+   Tools → Import → NinjaScript Add-On...
+   ```
+4. Select the downloaded `ChartDataLogger.zip` file.
+5. If prompted with a warning regarding trusted scripts, click **Yes**.
+6. NinjaTrader will automatically unpack, install, and compile the Add-On. A confirmation pop-up will appear once completed.
+
+---
+
+### Option 2: Manual Installation (From Source)
+
+1. Clone or download this repository.
+2. Copy the `ChartDataLogger` folder into your NinjaTrader 8 custom AddOns directory:
    ```
    Documents\NinjaTrader 8\bin\Custom\AddOns\ChartDataLogger\
    ```
-4. Folder structure should look like:
+3. Folder structure should look like:
    ```text
    NinjaTrader 8\bin\Custom\AddOns\ChartDataLogger\
    ├── ChartDataLoggerAddOn.cs
    └── ChartDataLoggerWindow.cs
    ```
-5. Open NinjaTrader 8:
+4. Open NinjaTrader 8:
    - If not compiled automatically, open the **NinjaScript Editor** (`New` → `NinjaScript Editor`) and press **F5** to compile.
 
 ---
