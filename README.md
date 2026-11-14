@@ -6,6 +6,8 @@
 
 A lightweight, high-performance **Add-On for NinjaTrader 8** designed to download and export historical **OHLCV market data** directly into clean, standardized CSV files without requiring open chart windows.
 
+<img width="1204" height="690" alt="screenshot" src="https://github.com/user-attachments/assets/24e50795-847e-488d-9d69-1a4adbde8971" />
+
 ---
 
 ## ✨ Features
